@@ -11705,18 +11705,19 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	position: fixed;
 	width: 40px;
 	height: 40px;
-	background-color: #333;
-	background-color: rgba(0,0,0,0.3);
-	font-size: 20px;
-	line-height: 36px;
+	/* background-color: #333;
+	background-color: rgba(0,0,0,0.3); */
+	font-size: 0px;
+	line-height: 50px;
 	text-align: center;
-	color: #FFF;
+	/* color: #FFF; */
 	top: auto;
 	left: auto;
-	right: 30px;
-	bottom: 50px;
+	right: 40px;
+	bottom: 60px;
 	cursor: pointer;
 	border-radius: 2px;
+	background-image: url(up_arrow.ico);
 }
 
 body:not(.device-touch) #gotoTop {
@@ -11727,7 +11728,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+/* #gotoTop:hover { background-color: #1ABC9C; } */
 
 
 /* ----------------------------------------------------------------
