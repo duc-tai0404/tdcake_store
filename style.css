@@ -7500,7 +7500,9 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box p {
 	margin: 8px 0 0 0;
 	color: #999;
+	text-align: center;
 }
+
 
 .feature-box .before-heading { font-size: 14px; }
 
@@ -8003,6 +8005,15 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: auto;
+	object-fit: cover;
+    cursor:pointer;
+    transition:all 0.5s ease;
+}
+
+.feature-box.media-box .fbox-media img:hover{
+	transform: scale(1.08);
+	z-index: 1;
+	transition: 0.4s;
 }
 
 .feature-box.media-box .fbox-media iframe { display: block; }
